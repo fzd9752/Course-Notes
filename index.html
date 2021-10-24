@@ -2,19 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Elsa's Course Note</title>
+  <title>Elsa's AI Notebook</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="AI相关课程笔记">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="static/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+
   <!-- <link rel="icon" href="static/favicon.ico" /> -->
+  <style>
+    .tab-badge {
+      position: absolute;
+      top: 0;
+      left: 44px;
+      transform: translate(35%, -45%);
+      padding: 0.25em 0.35em;
+      border-radius: 3px;
+      background: red;
+      color: white;
+      font-family: sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <div id="app">笔记正在赶来的路上……</div>
   <script>
     window.$docsify = {
-      name: 'Elsa Course Note',
+      name: "Elsa's AI Notebook",
+      repo: 'https://github.com/fzd9752/Course-Notes',
       coverpage: true,
       executeScript: true,
       loadSidebar: true,
@@ -22,13 +40,93 @@
       mergeNavbar: true,
       onlyCover: false,
       maxLevel: 4,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
+      copyCode: {
+        buttonText : '点击复制',
+        errorText  : '错误',
+        successText: '复制'
+      },
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      tabs: {
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+      search: {
+        placeholder: '搜索',
+        noData: '找不到结果',
+        depth: 4,
+      },
+      count:{
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese',
+        localization: {
+          words: "",
+          minute: ""
+      },
+      isExpected: true,
+      'flexible-alerts': {
+      style: 'flat'
+    },
+  }
+
+      // disqus: 'shortname'
     }
   </script>
   <!-- Docsify v4 -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
   <script src="static/docsify.min.js"></script>
   <script src="static/emoji.min.js"></script>
+  <!-- Zoom Image -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Code Copy Button -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- Pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- docsify-tabs (latest v1.x.x) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- Edit On Github -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <!-- Highlight Lanugae -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+  <!-- Count Words -->
+  <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 
+  <!-- Gittalk -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '77575fc06c807df9deee',
+      clientSecret: 'e94ec472a1cd9e799380981a18c4827bf74155d3',
+      repo: 'Notebook',
+      owner: 'fzd9752',
+      admin: ['fzd9752'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+
+<!-- https://github.com/lazypanda10117/docsify-pdf-embed -->
+
+
+<!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
 </body>
 </html>
