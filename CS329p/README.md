@@ -2,7 +2,7 @@
 
 > 李沐：实用机器学习
 
-课程官网：https://c.d2l.ai/stanford-CS329p/ 
+课程官网：https://c.d2l.ai/stanford-cs329p/ 
 
 课程视频：https://www.bilibili.com/medialist/detail/ml1353422798
 
