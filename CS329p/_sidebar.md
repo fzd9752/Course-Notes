@@ -1,7 +1,8 @@
-- [CS329p: Practical Machine Learning](CS329p/README.md)
-  - [1 - Data Collection](CS329p/ch1.md)
-  * [2 - Data Preprocessing](CS329p/ch2.md)
-  * 3 - ML model recap
+- [CS329P: Practical Machine Learning](cs329p/README.md)
+  - [0 - Course Introduction](cs329p/ch0.md)
+  - [1 - Data Collection](cs329p/ch1.md)
+  * [2 - Data Preprocessing](cs329p/ch2.md)
+  * [3 - ML model recap](cs329p/ch3.md)
   * 4 - Model Validation
   * 5 - Model Combination
   * 6 - Covariate Shift

@@ -1,9 +1,9 @@
-# Elsa's Course Notes
+# Elsa's AI Notebook
 
-> 课堂笔记
+> Elsa的AI笔记本
 
 - 个人记录
 - 中英文混用
 
 [GitHub](https://github.com/fzd9752/)
-[进入笔记](README.md)
+[打开笔记本](README.md)
