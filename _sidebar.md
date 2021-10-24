@@ -1,2 +1,2 @@
-- [CS329P: Practical Machine Learning](cs329p/README.md "Notes for MIT course cs329p practical machine learning 实用机器学习")
+- [CS329P: Practical Machine Learning](CS329p/README.md "Notes for MIT course cs329p practical machine learning 实用机器学习")
 - [读论文笔记](read_papers/README.md "AI 自动驾驶 读论文笔记")

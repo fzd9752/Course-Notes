@@ -5,7 +5,7 @@
 
 ### 流程图
 
-![Data Accquisition](../cs329p/images/dataacquisition.png)
+![Data Accquisition](../CS329p/images/dataacquisition.png)
 
 ### 发现数据
 
@@ -112,11 +112,11 @@
 
 ### 流程图
 
-![Flow Chart of Data Labelling](../cs329p/images/datalabelling.png)
+![Flow Chart of Data Labelling](../CS329p/images/datalabelling.png)
 
 ### 半监督学习 Semi-Supervised Learning (SSL)
 
-![Active Learning + Self Training](../cs329p/images/activelearning+selftraining.png)
+![Active Learning + Self Training](../CS329p/images/activelearning+selftraining.png)
 
 - 适合场景：少量标注数据+大量未标注数据
 - 未标注数据的分布需要满足下列假设：

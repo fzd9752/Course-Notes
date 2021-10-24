@@ -10,7 +10,7 @@
 
 ## 机器学习工作流程
 
-![ML Workflow](cs329p/../images/MLWorkflow.png)
+![ML Workflow](CS329p/../images/MLWorkflow.png)
 
 ## 机器学习的挑战
 

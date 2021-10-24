@@ -9,7 +9,7 @@
 
 #### **正在施工<span class="tab-badge">New!</span>**
 
-- [Stanford-cs329p Practical Machine Learning](cs329p/README.md)
+- [Stanford-cs329p Practical Machine Learning](CS329p/README.md)
 - [读论文笔记](read_papers/README.md)
 
 

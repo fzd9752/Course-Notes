@@ -2,7 +2,7 @@
 
 > 李沐：实用机器学习
 
-课程官网：https://c.d2l.ai/stanford-cs329p/ 
+课程官网：https://c.d2l.ai/stanford-CS329p/ 
 
 课程视频：https://www.bilibili.com/medialist/detail/ml1353422798
 
@@ -22,11 +22,11 @@
 
 ### 目录
 
-* [x] [0 - Course Introduction](cs329p/ch0.md)
-* [x] [1 - Data Collection](cs329p/ch1.md)
+* [x] [0 - Course Introduction](CS329p/ch0.md)
+* [x] [1 - Data Collection](CS329p/ch1.md)
   * [ ] 数据抓取博客
-* [ ] [2 - Data Preprocessing](cs329p/ch2.md)
-* [ ] [3 - ML model recap](cs329p/ch3.md)
+* [ ] [2 - Data Preprocessing](CS329p/ch2.md)
+* [ ] [3 - ML model recap](CS329p/ch3.md)
 * 4 - Model Validation
 * 5 - Model Combination
 * 6 - Covariate Shift
