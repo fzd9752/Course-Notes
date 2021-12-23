@@ -3,7 +3,7 @@
   - [1 - Data Collection](CS329p/ch1.md)
   * [2 - Data Preprocessing](CS329p/ch2.md)
   * [3 - ML model recap](CS329p/ch3.md)
-  * 4 - Model Validation
+  * [4 - Model Validation](CS329p/ch4.md)
   * 5 - Model Combination
   * 6 - Covariate Shift
   * 7 - Label Shift
